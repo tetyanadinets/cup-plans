@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+*{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.ba-container{
+	max-width: 1200px;
+	background-color: #fbe088;
+	margin: 100px auto;
+	color: #333333;
+}
+.ba-cofeecups{
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-align-items: center;
+	        align-items: center;
+	 -webkit-justify-content: center;
+	         justify-content: center;
+	list-style: none;
+	height: 600px;
+}
+
+.ba-cofeecup__bronze, .ba-cofeecup__silver{
+	width: 350px;
+	height: 440px;
+}
+.ba-cofeecup__gold{
+	width: 350px;
+	height: 500px;
+}
+.ba-cofeecup{
+	background-color: #FFF;
+	box-shadow: -1px 2px 7px -2px #333333;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	text-align: center;
+	margin: 15px;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-evenly;
+	        justify-content: space-evenly;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.ba-price{
+	color: #02995b;
+	font-size: 70px;
+	font-weight: 700;
+}
+img{
+	width: 135px;
+	height: 135px;
+
+}
+h3{
+	font-size: 56px;
+	font-weight: 400;
+}
+p{
+	font-size: 20px;
+	font-weight: 300;
+}
