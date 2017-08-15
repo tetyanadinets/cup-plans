@@ -7,34 +7,38 @@
 }
 body{
 	font-family: 'Lato', sans-serif;
+	line-height: 24px;
 }
 
 .ba-container{
 	max-width: 1200px;
 	background-color: #fbe088;
-	margin: 50px auto;
+	margin: 30px auto;
 	color: #333333;
 }
+
 .ba-cofeecups{
 	display: flex;
-	-webkit-flex-direction: row;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
 	-webkit-align-items: center;
 	        align-items: center;
-	 -webkit-justify-content: center;
-	         justify-content: center;
+	 -webkit-justify-content: space-evenly;
+	         justify-content: space-evenly;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
 	list-style: none;
-	height: 600px;
+	min-height: 600px;
 }
 
 .ba-cofeecup__bronze, .ba-cofeecup__silver{
-	width: 350px;
-	height: 440px;
+	-webkit-flex-basis: 360px;
+	        flex-basis: 360px;
+	 min-height: 441px;
 }
 .ba-cofeecup__gold{
-	width: 350px;
-	height: 500px;
+	-webkit-flex-basis: 360px;
+	        flex-basis: 360px;
+	min-height: 500px;
 }
 .ba-cofeecup{
 	background-color: #FFF;
@@ -42,13 +46,12 @@ body{
 	-webkit-border-radius: 3px;
 	        border-radius: 3px;
 	text-align: center;
-	margin: 15px;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	-webkit-justify-content: space-evenly;
-	        justify-content: space-evenly;
+	 -webkit-justify-content: space-evenly;
+	         justify-content: space-evenly;
 	-webkit-align-items: center;
 	        align-items: center;
 }
@@ -57,6 +60,7 @@ body{
 	font-size: 70px;
 	font-weight: 700;
 }
+
 img{
 	width: 135px;
 	height: 135px;
@@ -69,4 +73,5 @@ h3{
 p{
 	font-size: 20px;
 	font-weight: 300;
+	padding: 0 105px;
 }
